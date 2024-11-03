@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+body {
+    background-color: black;
+    overflow-x: hidden;
+}
+
+.header {
+    height: 100vh;
+    width: 100%;
+    background-color: ;
+}
+
+.navbar {
+    padding: 15px 18px !important;
+}
+
+.nav-item .nav-link {
+    color:rgb(255, 255, 255);   
+    font-size: 14px;
+    font-weight: 500;
+    }
+
+
+
+.logo {
+    font-weight: 600;
+    color: rgb(255, 255, 255) !important;
+}
+.nav-item{
+    margin: 0px 10px;
+}
+
+.btn-navbar {
+    display: inline-block;
+    padding: 10px 43px;
+    color: #fff;
+    border: 1px solid rgb(36, 193,255);
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: rgb(36, 193,255);
+   
+}
+
+/* /* Container styling */
+.container {
+    padding: 40px 20px;
+}
+
+/* Left image container styling */
+.img-home {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Right content container styling */
+.box-container2 {
+    color: #fff;
+    padding: 20px;
+}
+
+.home-heading {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #f8f9fa;
+    margin-bottom: 20px;
+}
+
+.home-span {
+    color:  rgb(36, 193,255); /* Accent color for emphasis */
+}
+
+.para-home {
+    font-size: 1.1em;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+/* Button styling */
+.btn-home {
+    display: flex;
+    gap: 10px;
+}
+
+.home-links {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    font-weight: 500;
+}
+
+.home-links.btn-2 {
+    background-color: #6c757d;
+}
+
+.home-links:hover {
+    background-color: #0056b3;
+}
+
+.home-links.btn-2:hover {
+    background-color: #5a6268;
+}
+.navbar-toggler{
+    background-color: white;
+}
+.hero-image{
+padding-bottom: 500px;
+}
+
+.about-section {
+    background-color: #000000;
+    color: white;
+    padding: 60px 0;
+}
+
+.about-heading {
+    font-size: 2.2em;
+    font-weight: bold;
+    color: #f8f9fa;
+    margin-bottom: 20px;
+}
+
+.about-span {
+    color: rgb(36, 193, 255);
+}
+
+.about-text {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.about-list {
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 1em;
+}
+
+.about-list li::before {
+    content: "✓ ";
+    color: rgb(36, 193, 255);
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.btn-about {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: rgb(36, 193, 255);
+    color: white;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-about:hover {
+    background-color: rgb(24, 144, 192);
+}
+
+.about-image {
+    border-radius: 10px;
+    max-width: 90%;
+}
+
+.product-section {
+    background-color: #000000;
+    color: white;
+    padding: 60px 0;
+}
+
+.product-heading {
+    font-size: 2.2em;
+    font-weight: bold;
+    color: #f8f9fa;
+    margin-bottom: 10px;
+}
+
+.product-span {
+    color: rgb(36, 193, 255);
+}
+
+.product-description {
+    font-size: 1.1em;
+    color: #adb5bd;
+    margin-bottom: 40px;
+}
+
+.product-card {
+    background-color: #2c2c2c;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-image {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+.card-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #f8f9fa;
+}
+
+.card-text {
+    font-size: 1em;
+    color: #adb5bd;
+    margin-bottom: 15px;
+}
+
+.btn-product {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: rgb(36, 193, 255);
+    color: white;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    font-weight: 600;
+}
+
+.btn-product:hover {
+    background-color: rgb(24, 144, 192);
+}
+.contact-section {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 60px 0;
+}
+
+.contact-heading {
+    font-size: 2.2em;
+    font-weight: bold;
+    color: #f8f9fa;
+    margin-bottom: 10px;
+}
+
+.contact-span {
+    color: rgb(36, 193, 255);
+}
+
+.contact-description {
+    font-size: 1.1em;
+    color: #adb5bd;
+    margin-bottom: 40px;
+}
+
+.contact-info {
+    color: #adb5bd;
+}
+
+.contact-info h5 {
+    font-size: 1.4em;
+    color: #f8f9fa;
+    margin-bottom: 20px;
+}
+
+.contact-form .form-label {
+    font-size: 1em;
+    color: #f8f9fa;
+}
+
+.contact-form .form-control {
+    background-color: #2c2c2c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.contact-form .form-control:focus {
+    background-color: #2c2c2c;
+    color: white;
+    border: 1px solid rgb(36, 193, 255);
+    box-shadow: none;
+}
+
+.btn-contact {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: rgb(36, 193, 255);
+    color: white;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-contact:hover {
+    background-color: rgb(24, 144, 192);
+}
+.footer-section {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 40px 0;
+}
+
+.footer-section h5 {
+    font-size: 1.3em;
+    margin-bottom: 15px;
+    color: rgb(36, 193, 255);
+}
+
+.footer-section p {
+    color: #adb5bd;
+    line-height: 1.6;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #adb5bd;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: rgb(36, 193, 255);
+}
+
+.social-links a {
+    color: white;
+    font-size: 1.2em;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: rgb(36, 193, 255);
+}
+
+.footer-bottom {
+    padding-top: 20px;
+    border-top: 1px solid #333;
+    color: #adb5bd;
+    font-size: 0.9em;
+}
+.footer-links{
+    text-decoration: none;
+}
+
